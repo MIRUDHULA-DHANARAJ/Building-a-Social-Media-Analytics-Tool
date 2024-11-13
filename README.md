@@ -31,16 +31,18 @@ Language:Python
 ## Program:
 ## Backend (Node.js + Express)
 ## 1. `backend/.env`
-```
+
 Create a `.env` file in the `backend` directory and add your MongoDB URI:
+```
 MONGO_URI=your_mongo_connection_string
 PORT=5000
 ```
 
 ### 2. `backend/server.js`
-```
+
 ---javascript
 // server.js
+```
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
@@ -62,9 +64,10 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 ```
 ## 3. `backend/models/AnalyticsData.js`
-```
+
 ---javascript
 // models/AnalyticsData.js
+```
 const mongoose = require('mongoose');
 const AnalyticsDataSchema = new mongoose.Schema({
  platform: String,
@@ -75,9 +78,10 @@ const AnalyticsDataSchema = new mongoose.Schema({
 module.exports = mongoose.model('AnalyticsData', AnalyticsDataSchema);
 ```
 ## 4. `backend/routes/analytics.js`
-```
+
 ---javascript
 // routes/analytics.js
+```
 const express = require('express');
 const router = express.Router();
 const AnalyticsData = require('../models/AnalyticsData');
@@ -111,7 +115,7 @@ npm install express mongoose dotenv cors axios
 ```bash
 node server.js
 ```
-## Frontend (React.js)
+## ' Frontend (React.js)'
 ## Initialize React App
 Create the React app in the `frontend` folder and install Axios:
 ```bash
