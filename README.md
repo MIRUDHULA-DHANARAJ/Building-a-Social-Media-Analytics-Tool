@@ -36,7 +36,7 @@ Create a `.env` file in the `backend` directory and add your MongoDB URI:
 MONGO_URI=your_mongo_connection_string
 PORT=5000
 ```
-```
+
 ### 2. `backend/server.js`
 ```
 ---javascript
