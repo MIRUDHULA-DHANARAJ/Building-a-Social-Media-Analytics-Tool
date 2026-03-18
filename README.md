@@ -36,7 +36,6 @@ Perfect for marketing, research, brand monitoring, or understanding audience opi
 | **NLP** | NLTK | Text preprocessing |
 | **ML** | Scikit-learn | Topic modeling (LDA) |
 
-**No complicated frameworks. No GPU required. No cloud setup needed.**
 
 ---
 
@@ -88,8 +87,7 @@ Social-Media-Analysis/
 ✅ **Data Upload** - CSV support  
 ✅ **Reddit Integration** - Collect fresh data  
 ✅ **Professional Code** - Logging, validation, error handling  
-✅ **Scalable** - Handles 100K+ comments  
-✅ **No Setup Hell** - Works out of the box  
+✅ **Scalable** - Handles 100K+ comments   
 
 ---
 
