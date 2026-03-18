@@ -173,14 +173,8 @@ scores = analyzer.polarity_scores(text)
 sentiment = 'positive' if scores['compound'] > 0.05 else 'negative'/'neutral'
 ```
 
-### 4. Topic Modeling (Optional)
-```python
-# Discover main themes using LDA
-lda = LatentDirichletAllocation(n_topics=5)
-topics = lda.fit_transform(vectorized_text)
-```
 
-### 5. Visualization
+### 4. Visualization
 ```python
 # Create interactive dashboard
 sentiment_pie_chart()      # Distribution
