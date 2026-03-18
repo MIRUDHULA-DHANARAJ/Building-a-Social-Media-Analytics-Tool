@@ -218,8 +218,7 @@ Top Comment (Positive):
 ---
 
 ## 🎤 Perfect For
-
-✅ Job interviews  
+ 
 ✅ Portfolio projects  
 ✅ Learning NLP  
 ✅ Understanding social trends  
@@ -258,18 +257,12 @@ pip install -r requirements.txt
 
 ## 🎯 Why This Project Stands Out
 
-1. **Simple Tech** - No ML frameworks, no Docker, no complexity
-2. **Real Data** - Uses actual Reddit/Twitter, not toy datasets
-3. **Professional** - Production-quality code structure
-4. **Real Problem** - Solves actual business use case
-5. **Works Out of Box** - Install → Run → Done
-6. **Deployable** - Share live link with URL
+1. **Real Data** - Uses actual Reddit/Twitter, not toy datasets
+2. **Professional** - Production-quality code structure
+3. **Real Problem** - Solves actual business use case
+4. **Works Out of Box** - Install → Run → Done
+5. **Deployable** - Share live link with URL
 
----
-
-## 💼 Interview Talking Points
-
-> *"I built a social media analytics platform that collects data from Reddit, analyzes sentiment using VADER, and visualizes insights through an interactive dashboard. The tech stack is intentionally simple—Python, Streamlit, NLTK, VADER—focusing on clean architecture and real-world applicability rather than trendy frameworks. It processes 160K+ comments, runs in-browser without GPU requirements, and demonstrates end-to-end capability from data collection to visualization."*
 
 ---
 
