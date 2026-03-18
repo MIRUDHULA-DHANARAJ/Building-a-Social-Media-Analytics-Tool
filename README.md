@@ -28,11 +28,6 @@ Analyze 160K+ social media comments using natural language processing and machin
   - Perfect for social media text with emojis and slang
   - Compound score: -1 (most negative) to +1 (most positive)
 
-### Topic Modeling
-- **Latent Dirichlet Allocation (LDA)**
-  - Unsupervised learning to discover hidden themes
-  - Identifies main topics discussed in comments
-  - Outputs: Top keywords per topic, topic distribution
 
 ### Text Preprocessing
 - Tokenization (NLTK)
@@ -271,16 +266,6 @@ streamlit run app.py --logger.level=debug
 
 ---
 
-## 🎯 Next Steps for Data Scientists
-
-1. **Explore the Data** - Run `Data_Understanding.ipynb` for EDA
-2. **Understand Preprocessing** - Review `preprocessing.py`
-3. **Learn VADER** - Check `Vader_Processing.ipynb`
-4. **Modify Models** - Experiment with LDA parameters
-5. **Deploy Dashboard** - Share insights with Streamlit Cloud
-6. **Extend Analysis** - Add new visualization, metrics, or models
-
----
 
 ## 💼 Interview Answer
 
@@ -290,9 +275,9 @@ streamlit run app.py --logger.level=debug
 
 ## 📊 Project Statistics
 
-- **Lines of Code:** ~2,000
+
 - **Data Points:** 160,000+
-- **ML Models:** VADER + LDA
+- **ML Models:** VADER 
 - **Dashboard Load:** <5 seconds
 - **Analysis Time:** 2-3 minutes for 160K comments
 - **Frameworks:** Scikit-learn, NLTK, Streamlit
