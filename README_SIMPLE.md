@@ -15,7 +15,7 @@ A simple yet powerful platform built with accessible tech to analyze, visualize,
 
 Analyzes social media conversations to detect:
 - **Sentiment** - Positive, negative, or neutral
-- **Trends** - What people are talking about
+- **Trends** - What's people talking about
 - **Patterns** - Changes over time
 - **Insights** - Statistics and breakdowns
 
